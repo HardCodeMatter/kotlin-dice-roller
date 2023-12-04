@@ -44,10 +44,14 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="260dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="126dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/dice_1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
